@@ -13,6 +13,13 @@
   }
 }
 
+.App-container {
+  height: 300px;
+  width: 300px;
+  margin: 150px auto;
+  background: #eee url(./houseup.png) no-repeat center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 10vh;

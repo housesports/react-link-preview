@@ -10,6 +10,7 @@ import './App.css';
 import Previews from './Previews';
 import AddLink from './setup/AddLink';
 import EditLink from './setup/EditLink';
+import Home from './Home';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
         </header>
       </div>
       <Switch>
-        <Route exact path="/" render={(props) => <Previews {...props} /> } />
+        <Route exact path="/" render={(props) => <Home {...props} /> } />
+        <Route exact path="/previews" render={(props) => <Previews {...props} /> } />
         <Route exact path="/add" render={(props) => <AddLink {...props} /> } />
         <Route exact path="/edit/:id" render={(props) => <EditLink {...props} /> } />
       </Switch>
