@@ -11,6 +11,7 @@ import Previews from './Previews';
 import AddLink from './setup/AddLink';
 import EditLink from './setup/EditLink';
 import Home from './Home';
+import NotFound from './NotFound';
 
 
 function App() {
@@ -35,9 +36,10 @@ function App() {
       </div>
       <Switch>
         <Route exact path="/" render={(props) => <Home {...props} /> } />
-        <Route exact path="/previews" render={(props) => <Previews {...props} /> } />
-        <Route exact path="/add" render={(props) => <AddLink {...props} /> } />
-        <Route exact path="/edit/:id" render={(props) => <EditLink {...props} /> } />
+        <Route path="/previews" render={(props) => <Previews {...props} /> } />
+        <Route path="/add" render={(props) => <AddLink {...props} /> } />
+        <Route path="/edit/:id" render={(props) => <EditLink {...props} /> } />
+        <Route path = '*' component = {NotFound} /> 
       </Switch>
     </Router>
   );
