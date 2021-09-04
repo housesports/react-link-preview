@@ -30,12 +30,8 @@ function App() {
         </header>
       </div>
       <Switch>
-        <Route exact path="/">
-          <Previews />
-        </Route>
-        <Route exact path="/add">
-          <AddLink />
-        </Route>
+        <Route exact path="/" render={(props) => <Previews {...props} /> } />
+        <Route exact path="/add" render={(props) => <AddLink {...props} /> } />
         <Route exact path="/edit/:id" render={(props) => <EditLink {...props} /> } />
       </Switch>
     </Router>
