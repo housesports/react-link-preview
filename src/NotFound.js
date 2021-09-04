@@ -11,7 +11,7 @@ function NotFound() {
       <br />
       <br />
       <br />
-      <Link style={{ fontSize: '12px', color: 'black' }} to="/">Go to Previews</Link>
+      <Link style={{ fontSize: '12px', color: 'black', marginRight: '0px' }} to="/">Go to Previews</Link>
     </div>
   );
 }
