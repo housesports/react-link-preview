@@ -21,7 +21,10 @@ function App() {
           <nav>
             <ul className="App-header-ul">
               <li className="App-header-li">
-                <NavLink exact activeClassName="active" to="/">Previews</NavLink>
+                <NavLink exact activeClassName="active" to="/">Home</NavLink>
+              </li>
+              <li className="App-header-li">
+                <NavLink exact activeClassName="active" to="/previews">Previews</NavLink>
               </li>
               <li className="App-header-li">
                 <NavLink exact activeClassName="active" to="/add">Add Link</NavLink>

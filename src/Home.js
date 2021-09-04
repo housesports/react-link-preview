@@ -9,10 +9,9 @@ function Home() {
     <div class="App-container">
       <br />
       <br />
-      <h4>Housesports</h4>
       <br />
       <br />
-      <Link to="/previews">ReactJS Link Preview</Link>
+      <Link style={{ fontSize: '12px', color: 'black' }} to="/previews">ReactJS Link Preview Demo</Link>
     </div>
   );
 }

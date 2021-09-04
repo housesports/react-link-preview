@@ -16,8 +16,8 @@
 .App-container {
   height: 300px;
   width: 300px;
-  margin: 150px auto;
   background: #eee url(./houseup.png) no-repeat center;
+  text-align: center;
 }
 
 .App-header {

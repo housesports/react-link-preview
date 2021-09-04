@@ -3,7 +3,7 @@ React Dynamic Plug &amp; Play Link Preview Component
 
 # Demo
 
-[Launch Demo](http://housesports.github.io/previews)
+[Launch Demo](http://housesports.github.io/react-link-preview)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
