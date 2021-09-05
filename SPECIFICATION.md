@@ -3,7 +3,7 @@ React Dynamic Plug &amp; Play Link Preview Component
 
 Welcome to react-link-preview repository.
 
-The work will be reviewed using the demo in this repo. Source code is expected to be clean and easy to follow. Feel free to submit edits to the component documentation in  [Documentation.md](https://github.com/housesports/react-link-preview/blob/main/DOCUMENTATION.md). The new component should be placed in it’s own folder. After the component is tested throughly and finished,  the new component will be made into a npm package and this repo and will serve as demo source code.
+The work will be reviewed using the demo in this repo. Source code is expected to be clean and easy to follow. Feel free to submit edits to the component documentation in  [Documentation.md](https://github.com/housesports/react-link-preview/blob/main/DOCUMENTATION.md). The new component should be placed in its own folder. After the component is tested thoroughly and finished, the new component will be made into a npm package and this repo will serve as demo source code.
 
 We will use this the repository [issues](https://github.com/housesports/react-link-preview/issues/new) for discussions, questions, or concerns. Submit a pull request for code review and merge. The demo will be updated with the latest editions. The demo contains the necessary CRUD options for entering testing urls. 
 
