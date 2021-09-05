@@ -35,8 +35,8 @@ The component shall accommodate all links. Error cases shall display error and r
 - google search result
 
 Design:
-![Link Preview Design Example](/public/IMG_0509.jpeg | width=275)
-![Link Preview Design Example](/public/IMG_0510.jpeg | width=275)
+![Link Preview Design Example](/public/IMG_0509.jpeg)
+![Link Preview Design Example](/public/IMG_0510.jpeg)
 
 
 **Deliverables:**
